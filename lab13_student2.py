@@ -27,6 +27,7 @@ try:
 
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
+
         try:
             writer.writeheader()  # Записуємо заголовки
             writer.writerows(data) # Записуємо всі рядки з даними
